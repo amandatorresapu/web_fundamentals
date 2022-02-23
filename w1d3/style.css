@@ -8,6 +8,10 @@ body {
 h1 {
   color: rebeccapurple;
   font-size: 50px;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 4px 4px;
+  text-align: left;
 }
 
 h3 {
