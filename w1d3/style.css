@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: linear-gradient(red, black);
+}
+h1 {
+  color: rebeccapurple;
+  font-size: 50px;
+}
+
+h3 {
+  color: aqua;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+span {
+  color: blueviolet;
+}
+
+.head span {
+  color: red;
+}
+
+.thing2 {
+  color: orange;
+}
+
+.thing1 {
+  color: purple;
+}
+li {
+  color: green;
+}
+#dog {
+  border: 2px solid red;
+  border-radius: 10px;
+}

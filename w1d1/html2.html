@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/Users/amandatorres/Desktop/web_fundamentals/w1d2-css/style.css"
+    />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="/process" method="post">
+      <h1>Registration Form</h1>
+      <div>
+        <label>First Name:* </label>
+        <input type="text" name="name" placeholder="Your name..." />
+      </div>
+      <div>
+        <label>Last Name:* </label>
+        <input type="text" name="Last" placeholder="Last name..." />
+      </div>
+      <div>
+        <label>Email Address:* </label>
+        <input type="text" name="email" placeholder="Your email..." />
+      </div>
+      <div>
+        <label>Password: *</label>
+        <input type="password" name="password" placeholder="Your password" />
+      </div>
+      <div>
+        <label>Confirm Password: *</label>
+        <input type="password" name="password" placeholder="Your password" />
+      </div>
+      <div>
+        <label>Birthday: </label>
+        <input type="date" name="Birthday" placeholder="Birthday.." />
+      </div>
+
+      <div>
+        <input type="checkbox" name="genders" id="gender" />
+        <label for="Gender">Male</label>
+        <input type="checkbox" name="genders" id="gender" />
+        <label for="Gender">female</label>
+        <input type="checkbox" name="genders" id="gender" />
+        <label for="Gender">Non-Binary</label>
+        <input type="checkbox" name="genders" id="gender" />
+        <label for="Gender">I prefer not to answer</label>
+      </div>
+      <div>
+        <label>Short Description about myself </label>
+        <div><input type="comment" name="commen" placeholder="" /></div>
+      </div>
+      <div>
+        <label> Favorite Language: </label>
+        <select name="snack">
+          <option>Javascript</option>
+          <option>react</option>
+          <option>python</option>
+          <option>html</option>
+        </select>
+      </div>
+      <div>
+        <input type="checkbox" name="sign up" />
+        <label for="Gender">Yes i would like to sign up</label>
+      </div>
+      <input type="submit" value="Create Account" />
+    </form>
+    <h5>* Indicates a required field</h5>
+  </body>
+</html>
